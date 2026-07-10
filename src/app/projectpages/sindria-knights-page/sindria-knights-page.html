@@ -1,0 +1,504 @@
+<div class="min-h-screen relative overflow-hidden bg-linear-to-br from bg-purple-300 to-yellow-400"> 
+    <div class="gap-8 flex justify-center">
+        <!--From Here-->
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Sindria Knights</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    For this game I had mainly wanted to try some new mechanics and learn a new way of doing things in 
+                    Unity because I feel like it would be better for me to learn different ways of doing things. 
+                    This game is still in development because there’s a lot of things I still want to add.
+                </h3>
+            </div>
+        </div>
+    </div>
+    
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Inspiration</h1>
+            <div class="justify-center! text-center">
+               
+            </div>
+             <div class="flex justify-center gap-12">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                       <img src="/Images/Sindria Knights/inspo/Dauntless.avif" alt="" 
+                         class="w-150 rounded-2xl mx-auto mt-7 ">
+
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                       <img src="/Images/Sindria Knights/inspo/EGS_Neverwinter_CrypticStudios_1_2560x1440-4647a3d3319621b005fee1b78ff0035d.avif" alt="" 
+                         class="w-150 rounded-2xl mx-auto mt-7 ">
+
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                       <img src="/Images/Sindria Knights/inspo/genshin-impact-packshot-01-en-18jun21.avif" alt="" 
+                         class="w-150 rounded-2xl mx-auto mt-7 ">
+
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                       <img src="/Images/Sindria Knights/inspo/tera.avif" alt="" 
+                         class="w-150 rounded-2xl mx-auto mt-7 ">
+
+                    </div>
+        
+               
+               
+
+                </div>
+            <h3 class="text-3xl mt-7 ">
+                   I took inspiration from these types of games because when 
+                   I was younger these are the type of games I would play when I didn’t have a console.
+                </h3>
+        </div>
+    </div>
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Process</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl mb-5 ">
+                  I first started by getting character models and animations from the unity asset store.
+                  I then proceeded to start giving my character movement using the way 
+                  I’m familiar with which is writing a mono behaviour script and adding it to the character.
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+
+                <img src="/Images/Sindria Knights/Process/movemnt process 1.avif" alt="" 
+                class="w-200 rounded-2xl mx-auto mt-7 h-50">
+
+                <video src="Images/Sindria Knights/Process/Movement Gameplay Example.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                </video>
+            </div>
+
+            <h3 class="text-3xl mt-9 ">
+                  The other way I wanted to try was using state machines. At first, I didn’t understand this 
+                  method and found it difficult to use but once 
+                  I understood how to use this method it became easy. State machines use different scripts to make the 
+                  character do different things and although it is a longer way of doing thing, 
+                  I still think it is very effective and so I decided to use this method for the rest of the game.
+                </h3>
+            <br>
+
+            <h1 class=" mt-5 mb-8 text-7xl">Using State Machines</h1>
+
+                <h3 class="text-3xl ">
+                   Using state machines allows you to switch states of the character 
+                   so if the player was moving that would be the moving state and 
+                   if the player was attacking that would be the attacking state 
+                   , you can have more states depending on what you want your character to do.
+                </h3>
+
+                <div class="flex flex-wrap gap-4">
+
+                <img src="/Images/Sindria Knights/Process/UsingStateMachines.avif" alt="" 
+                class="w-200 rounded-2xl mx-auto mt-7 h-80">
+
+                <video src="Images/Sindria Knights/Process/Character Running Gameplay Example.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                </video>
+
+
+              </div>
+               <h1 class=" mt-5 mb-8 text-7xl">Attacks</h1>
+
+                <h3 class="text-3xl ">
+                   After making the character able to move I then went on to give it combo attacks. 
+                   I also tried doing attacks 
+                   a different way instead of just assigning the left click button 
+                   to just change the animation 
+                   I made the attacking state and a separate script for attack data
+                </h3>
+
+                 <div class="flex flex-wrap gap-4">
+
+                <div class="flex justify-center gap-60">
+                    
+                     <div class="flex flex-col items-center font-medium">
+                        <h2 class="mt-10 text-center">Attack Data</h2>
+
+                          <img src="/Images/Sindria Knights/Process/Attack Data.avif" alt="" 
+                           class="w-200   mt-5 ">
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Attack Input</h2>
+
+                          <img src="/Images/Sindria Knights/Process/Attack Input.avif" alt="" 
+                           class="w-200  mx-auto mt-5 ">
+
+
+                    </div>
+
+                     <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Attack Combo</h2>
+
+                          <img src="/Images/Sindria Knights/Process/Attack Combo.avif" alt="" 
+                           class="w-200  mx-auto mt-5 ">
+
+
+                    </div>
+               
+
+                </div>
+                
+
+                 <video src="Images/Sindria Knights/Process/Characetr Attacking Anim .mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                </video>
+            </div>
+        </div>
+    </div>
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Targeting Enemies</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                   After giving the character attacks I realized that when I would attack the 
+                   character wouldn’t always target the enemy and sometimes attacking past them so 
+                   I added a targeting state and when in the targeting state the character would move facing the player.
+                </h3>
+            </div>
+                        <div class="flex flex-wrap gap-4">
+                     <div class="flex justify-center gap-12">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Attacking past the Enemy</h2>
+
+                        <video src="Images/Sindria Knights/Process/Character action Gameplay.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                        </video>
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Targeting movement & Attacking the Enemy</h2>
+
+                         <video src="Images/Sindria Knights/Process/Character Attack Gameplay.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                         </video>
+                    </div>
+                    
+        
+               
+               
+
+                </div>
+                <h3 class="text-3xl mt-5">
+                   First when doing the targeting I had to use two different types of cameras. 
+                   The first camera will normally follow the player 
+                   and the second camera is to lock on to the enemy. I then added sphere collider with the is trigger on. In the targeting script 
+                   I added a method that says if the enemy is in the sphere collider, then you should be able to target them.
+                </h3>
+
+                <div class="flex justify-center gap-60">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Targetting Part Of Script</h2>
+
+                         <img src="Images/Sindria Knights/Process/Targetting Part of Script.avif" alt="" 
+                           class="w-150  mx-auto mt-5 ">
+
+                    </div>
+                    
+                     <div class="flex flex-col items-center font-medium">
+                        <h2 class="mt-10 text-center">Sphere Collider that is Trigger</h2>
+
+                          <img src="Images/Sindria Knights/Process/Sphere Collider that is Trigger.avif" alt="" 
+                           class="w-150  mx-auto mt-5 ">
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">The Two Cameras</h2>
+
+                          <img src="Images/Sindria Knights/Process/The Two Cameras 1.avif" alt="" 
+                           class="w-150  mx-auto mt-5 ">
+
+                           <img src="Images/Sindria Knights/Process/The Two Cameras 2.avif" alt="" 
+                           class="w-150  mx-auto mt-7 ">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Adding Enemy & AI</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    Now I needed to make the enemy notice the player when it got too close, 
+                    chase the player, and attack the player when it got to the player. 
+                    I added the nav mesh agent component which gives the enemy AI. I used state machines on the enemy as well
+                </h3>
+            </div>
+            
+            <div class="flex flex-wrap gap-4">
+                <div class="flex justify-center gap-20">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Enemy Idle State</h2>
+
+                         <img src="Images/Sindria Knights/Process/EnemyIdleState.avif" alt="" 
+                           class="w-150  max-w-sm mt-5 ">
+
+                    </div>
+                    
+                     <div class="flex flex-col items-center font-medium">
+                        <h2 class="mt-10 text-center">Enemy Chase State</h2>
+
+                          <img src="Images/Sindria Knights/Process/EnemyChaseState.avif" alt="" 
+                           class="w-150 max-w-sm mt-5 ">
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Enemy Attacking State</h2>
+
+                          <img src="Images/Sindria Knights/Process/EnemyAttackingState.avif" alt="" 
+                           class="w-150  max-w-sm mt-5 ">
+
+
+                    </div>
+
+                </div>
+
+                <div class="flex justify-center gap-70">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Enemy Nav Mesh Agent</h2>
+
+                        <img src="Images/Sindria Knights/Process/EnemyNavMeshAgent.avif" alt="" 
+                           class="w-150  max-w-sm mt-5 ">
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Enemy Chasing and Attacking</h2>
+
+                         <video src="Images/Sindria Knights/Process/Characetr getting hit reaction.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                         </video>
+                    </div>
+                    
+        
+               
+               
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Adding Blocking & Dodging</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                   When playing my game, I realised that the player couldn’t block or dodge the enemies attacks so I had to add them in. 
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <div class="flex justify-center gap-100 ml-30">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Player Blocking Script</h2>
+
+                         <img src="Images/Sindria Knights/Process/PlayerBlockingScript.avif" alt="" 
+                           class="w-150  max-w-2xs  mt-5 ">
+
+                    </div>
+                    
+                     <div class="flex flex-col items-center font-medium">
+                        <h2 class="mt-10 text-center">Player Blocking Script</h2>
+
+                          <img src="Images/Sindria Knights/Process/PlayerBlockingScript2.avif" alt="" 
+                           class="w-150  max-w-2xs mt-5 ">
+
+                    </div>
+
+
+                </div>
+
+                 <div class="flex justify-center gap-12">
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Player Dodging</h2>
+
+                        <video src="Images/Sindria Knights/Process/Character Dodging.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                        </video>
+
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium">Player Blocking</h2>
+
+                         <video src="Images/Sindria Knights/Process/Character Blocking Gamplay Example.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-7">
+                         </video>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Adding An Environment</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    I added the environment to the game to give it the game feel but also to match the theme of my game.
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <div class="flex justify-center gap-12">
+
+                    
+                    
+                    
+            
+                </div>
+
+                 
+                
+
+            </div>
+            <div class="flex flex-col items-center">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                          <img src="Images/Sindria Knights/Process/Environment.avif" alt="" 
+                           class="w-200  mx-auto mt-5 ">
+
+            </div>
+        </div>
+    </div>
+
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Gameplay</h1>
+            <div class="justify-center! text-center">
+                
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <div class="flex justify-center gap-12">
+                    <div class="flex flex-col items-center ml-83">
+                        <h2 class="mt-10 text-center font-medium"></h2>
+
+                         <video src="Images/Sindria Knights/Process/EnemyAttacking Gameplay Example.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl max-w-2xl mt-7">
+                         </video>
+                    </div>
+                   
+                </div>
+                
+                <h3 class="text-3xl ml-20 ">
+                    As I am still developing my game there are still alot of things that I am going to add. <br>
+                    <br>Assign a Dodge animation to the Dodge function <br>
+                     <br>Adding a boss enemy <br>
+                     <br>Adding more enemies <br>
+                     <br>Adding more environments <br>
+                     <br>Displaying enemy health <br>
+                     <br>Displaying player health <br>
+                     <br>Adding Sound <br>
+                     <br>Adding sound effects <br>
+                </h3>
+                
+            </div>
+        </div>
+    </div>
+
+      <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    

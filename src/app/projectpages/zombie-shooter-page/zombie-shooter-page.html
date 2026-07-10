@@ -1,0 +1,492 @@
+<div class="min-h-screen relative overflow-hidden bg-linear-to-br from bg-purple-300 to-olive-300">
+
+    <div class="gap-8 flex justify-center">
+        <!--From Here-->
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Zombie Shooter</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                   When making this game I had an idea and a route I wanted this game to go towards.
+                   I didn’t take any inspiration from any other games when making mine I just knew I wanted to make a third person shooter zombie type game .
+                   I first started by getting character models and animations from the unity asset store.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+
+    <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Process</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    First thing I started with was the movement I done this by using the input system that unity provides. 
+                    After I set up the movement in the input system, I then created two scripts. 
+                    The first script to handle the inputs and the other script to execute the movement logic.
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Input System</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/InputSystem.avif" alt="" 
+                  class="w-150  mx-auto mt-3">
+                </div>
+                
+                </div>
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Movement Script</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/MovemntScript.avif" alt="" 
+                  class="w-150  mx-auto mt-3">
+                </div>
+                
+                </div>
+
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">InputReader Script</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                  <img src="Images/Zombie Shooter/process/InputReader 1.avif" alt="" 
+                  class="w-150 rounded-2xl mx-auto mt-3">
+
+                  <img src="Images/Zombie Shooter/process/InputReader 2.avif" alt="" 
+                  class="w-150 rounded-2xl mx-auto mt-3">
+
+                </div>
+                
+                </div>
+            </div>
+            <div class="flex justify-center gap-12 mb-6">
+
+                    
+            </div>
+            <h3 class="text-3xl mt-15 ">
+                    I then set up the camera so that it is positioned just offset to the right of the player and added a crosshair.
+                </h3>
+
+                 <div class="flex justify-center gap-12">
+
+                <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Movement Demo</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                <video src="Images/Zombie Shooter/process/TPS video 6.mp4" 
+                 type="video/mp4" 
+                 controls
+                 class="w-150 rounded-2xl mx-auto mt-3">
+                </video>
+
+                </div>
+                
+                </div>
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Camera</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/Camera section.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+                </div>
+                
+                </div>
+
+    
+            </div>
+            </div>
+            <h3 class="text-3xl mt-15 ">
+                  Next thing I did was make the player face towards the crosshair. 
+                  I done this by using a raycast and making a sphere object follow the raycast. 
+                  I then set up the animation rigging, by setting up the animation 
+                  rigging it allows the players bones to move according to the crosshair.
+                </h3>
+
+                 <div class="flex justify-center gap-12">
+
+                <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Raycast Demo</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                <video src="Images/Zombie Shooter/process/TPS video 5.mp4" 
+                 type="video/mp4" 
+                 controls
+                 class="w-150 rounded-2xl mx-auto mt-3">
+                </video>
+
+                </div>
+                
+                </div>
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Raycast part of the script</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/Raycast part of script.avif" alt="" 
+                  class="w-150  mx-auto mt-3">
+                </div>
+                
+                </div>
+
+    
+            </div>
+            </div>
+
+             <h3 class="text-3xl mt-10">
+                 Next thing I did was made it so that the player could shoot when they press the left mouse button.
+                 I made it so that when the shoot button is pressed it would shoot a bullet from the gun barrel position.
+                 I also added effects to the barrel and bullet tracing to see the direction of the bullet
+                </h3>
+
+                 <div class="flex justify-center gap-12 ">
+
+                <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Shooting Demo</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                <video src="Images/Zombie Shooter/process/TPS video 4.mp4" 
+                 type="video/mp4" 
+                 controls
+                 class="w-150 rounded-2xl mx-auto mt-3">
+                </video>
+
+                </div>
+                
+                </div>
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Shooting part of the script</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/Shooting part of script 1.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+                  
+                  
+                </div>
+                <img src="Images/Zombie Shooter/process/Shooting part of script 2.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+                
+                </div>
+
+    
+            </div>
+            </div>
+        </div>
+    </div>
+
+     <br>
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+    <br>
+
+      <!--From Here-->
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Aiming</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    I then made it so that the player could aim. 
+                    I did this by duplicating the main camera and zooming it in. 
+                    When the aim button is pressed the priority of the camera changes to the aiming camera.
+                </h3>
+            </div>
+            <div class="flex justify-center gap-12">
+
+            <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Aiming Demo</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                <video src="Images/Zombie Shooter/process/TPS video 2.mp4" 
+                 type="video/mp4" 
+                 controls
+                 class="w-150 rounded-2xl mx-auto mt-3">
+                </video>
+
+                </div>
+                
+                </div>
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Aiming Part of Script</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+                  <img src="Images/Zombie Shooter/process/Aiming Part of script 1.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+                  
+                  
+                </div>
+                <img src="Images/Zombie Shooter/process/Aiming Part of script 2.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+                
+                </div>
+
+    
+            </div>
+            </div>
+                <h3 class="text-3xl mt-15">
+                    I then made it so that the player could aim. 
+                    I did this by duplicating the main camera and zooming it in. 
+                    When the aim button is pressed the priority of the camera changes to the aiming camera.
+                </h3>
+
+                <div class="flex justify-center gap-12">
+
+            <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium">Added Environment</h2>
+                <div class="flex flex-wrap items-center gap-4" >
+
+                <video src="Images/Zombie Shooter/process/TPS video 2.mp4" 
+                 type="video/mp4" 
+                 controls
+                 class="w-150 rounded-2xl mx-auto mt-3">
+                </video>
+
+                </div>
+                
+                </div>
+
+    
+            </div>
+            </div>
+                
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+    <br>
+
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Zombie Enemies</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    I then added zombies to chase the player. 
+                    I done this by making a AI script and  adding it to the zombies. 
+                    I also added health to the zombies to track how much life they have.
+                </h3>
+            </div>
+            <div class="flex justify-center gap-12">
+
+            <div class="flex flex-wrap gap-4">
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium ml-10">Zombies</h2>
+                <div class="flex flex-wrap items-center gap-4 ml-20" >
+
+                <img src="Images/Zombie Shooter/Zombie/Zombies 1.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+                  <img src="Images/Zombie Shooter/Zombie/Zombies 2.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+                  <img src="Images/Zombie Shooter/Zombie/Zombies 3.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+
+                </div>
+                </div>
+
+                <div class="flex flex-col items-center">
+                <h2 class="mt-5 text-center font-medium ml-15">Zombie AI Script</h2>
+                <div class="flex flex-wrap items-center gap-4 ml-20" >
+
+                  <img src="Images/Zombie Shooter/process/Zombie Ai Script.avif" alt="" 
+                  class="w-90  mx-auto mt-3">
+
+                </div>
+                </div>
+
+                <div class="flex flex-col items-center ml-90">
+                <h2 class="mt-5 text-center font-medium">Zombie Health</h2>
+                <div class="flex flex-wrap items-center! gap-5 " >
+
+                  <img src="Images/Zombie Shooter/process/Zombie Ai Script.avif" alt="" 
+                  class="w-90  mx-auto mt-3 ">
+
+                </div>
+                </div>
+
+                 <div class="flex flex-col items-center">
+                        <h2 class="mt-5 text-center font-medium">Zombie AI</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <video src="Images/Zombie Shooter/process/TPS video 9.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-3">
+                          </video>
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-5 text-center font-medium">Zombie Health</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <video src="Images/Zombie Shooter/process/TPS video 8.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-3">
+                          </video>
+                            
+                        </div>
+                    </div>
+
+                <h3 class="text-3xl mt-5 ">
+                    Now that some of the main mechanics are done 
+                    I wanted to add some UI elements such as a count down to start the game. 
+                    I made it so that you couldnt move the playr unitl the count down time had reached zero.
+                </h3>
+
+                <div class="flex flex-col items-center! ml-90">
+                        <h2 class="mt-5 text-center font-medium">Count Down Start Timer</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <video src="Images/Zombie Shooter/process/TPS video 7.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-3">
+                          </video>
+                            
+                        </div>
+                    </div>
+
+                <h3 class="text-3xl mt-8 ">
+                    I added a game controller script and when the game is started the 
+                    Input system will be disabled but when the timer ends the input will be enable
+                </h3>
+
+                <div class="flex flex-col items-center ml-70 ">
+                        <h2 class="mt-5 text-center font-medium">Count Down Start Player Timer Script</h2>
+                        <div class="flex flex-wrap items-center " >
+
+                            
+                           <img src="Images/Zombie Shooter/process/Count Down Timer Script.avif" alt="" 
+                          class="w-90  mx-auto mt-3 ">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="mt-5 text-center font-medium">Count Down Start Timer Script</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                           <img src="Images/Zombie Shooter/process/Count Down Timer Player Script.avif" alt="" 
+                          class="w-90  mx-auto mt-3 ">
+                            
+                        </div>
+                    </div>
+
+
+                
+
+                
+            </div>
+
+            
+
+
+
+      
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr style="width: 75%; margin: 0 auto;">
+    <br>
+
+     <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-5 mb-8 text-7xl">Character Selection</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    I created a character selection scene.  So when the Mouse hovers on a character a 
+                    light would shine on them and they would go into a shooting animation.
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-col items-center! ml-90">
+                        <h2 class="mt-5 text-center font-medium">Character Selection Demo</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <video src="Images/Zombie Shooter/process/CharacterSelect.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-3">
+                          </video>
+                            
+                        </div>
+                    </div>
+            </div>
+             <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-col items-center! ml-120">
+                        <h2 class="mt-5 text-center font-medium">Selection Script</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <img src="Images/Zombie Shooter/process/Count Down Timer Player Script.avif" alt="" 
+                          class="w-90  mx-auto mt-3 ">
+                            
+                        </div>
+                    </div>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-col items-center! ml-90">
+                        <h2 class="mt-5 text-center font-medium">Gameplay Demo</h2>
+                        <div class="flex flex-wrap items-center" >
+
+                            
+                          <video src="Images/Zombie Shooter/process/TPS video 10.mp4" 
+                          type="video/mp4" 
+                          controls
+                          class="w-150 rounded-2xl mx-auto mt-2">
+                          </video>
+                            
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="gap-8 flex justify-center">
+        
+        <div class=" max-w-7xl justify-center! mt-8 text-center">
+            <h1 class=" mt-2 mb-8 text-7xl">Things To Do</h1>
+            <div class="justify-center! text-center">
+                <h3 class="text-3xl ">
+                    As I am still developing my game there are still alot of things that I am going to add. <br>
+
+                    <br>-Adding levels And Waves <br>
+
+
+                    <br>-Adding more weapons <br>
+
+                    <br>-Adding ammo and weapons tracker<br>
+
+                    <br>-Adding more characters
+
+                </h3>
+            </div>
+            <div class="flex flex-wrap gap-4">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+</div>
